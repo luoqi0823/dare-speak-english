@@ -1,0 +1,48 @@
+.logo {
+  --brand-mark-size: 42px;
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+  color: var(--ink);
+  gap: 12px;
+}
+
+.logo[data-size="small"] { --brand-mark-size: 34px; gap: 9px; }
+.logo[data-size="large"] { --brand-mark-size: 54px; gap: 15px; }
+
+.mark {
+  width: var(--brand-mark-size);
+  height: var(--brand-mark-size);
+  flex: 0 0 var(--brand-mark-size);
+  filter: drop-shadow(2px 3px 0 rgba(38, 37, 31, .95));
+}
+
+.copy {
+  display: grid;
+  min-width: 0;
+  line-height: 1.1;
+  gap: 4px;
+}
+
+.copy strong {
+  font-family: "Kaiti SC", "STKaiti", serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+
+.logo[data-size="small"] .copy strong { font-size: 16px; }
+.logo[data-size="large"] .copy strong { font-size: 22px; }
+
+.copy small {
+  color: #746d63;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  white-space: nowrap;
+}
+
+@media (max-width: 460px) {
+  .compactOnSmall .copy { display: none; }
+}

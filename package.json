@@ -1,0 +1,39 @@
+{
+  "name": "dare-speak-english",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test tests/*.test.mjs",
+    "test:db": "supabase test db --local supabase/tests/*.test.sql",
+    "test:db:remote-smoke": "supabase test db --linked supabase/tests/remote_schema_smoke.sql",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "course:generate": "node scripts/generate-course-seed.mjs",
+    "course:illustrations": "node scripts/build-course-illustrations.mjs",
+    "course:illustration-migration": "node scripts/generate-course-illustration-migration.mjs",
+    "course:upload": "supabase storage cp -r --content-type image/webp --cache-control max-age=31536000,immutable assets/course-illustrations/upload/v1 ss:///course-illustrations/v1",
+    "course:storage:verify": "node --env-file-if-exists=.env.local scripts/verify-course-storage.mjs",
+    "course:validate": "node -e \"import('./supabase/course-data/first-30-lessons.mjs').then(({validateFirstThirtyLessons})=>{const errors=validateFirstThirtyLessons(); if(errors.length){console.error(errors.join('\\n')); process.exit(1)} console.log('30 lessons validated')})\""
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.118.0",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.2",
+    "sharp": "^0.35.5",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@10.28.0"
+}

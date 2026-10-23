@@ -1,0 +1,213 @@
+.page {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 88% 8%, rgba(242, 203, 103, .18), transparent 24%),
+    var(--paper);
+}
+
+.paperNoise {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: .16;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitchTiles'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E");
+}
+
+.header,
+.hero,
+.routeSection,
+.practiceSection,
+.relatedSection,
+.footer {
+  width: min(100% - 48px, 1220px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 76px;
+  border-bottom: 1px solid rgba(38, 37, 31, .18);
+}
+
+.brandLink,
+.backLink {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.backLink {
+  padding: 8px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.backLink:hover { color: var(--coral); }
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, .84fr);
+  align-items: center;
+  min-height: 690px;
+  padding: 72px 0 90px;
+  gap: 78px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 20px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .15em;
+}
+
+.eyebrow span { width: 26px; height: 2px; background: var(--coral); }
+
+.titleRow { display: flex; align-items: center; gap: 18px; }
+.titleRow h1 { margin: 0; font-family: "Kaiti SC", "STKaiti", serif; font-size: clamp(56px, 7vw, 86px); line-height: 1; }
+.englishTitle { margin: 6px 0 0; color: #797268; font-family: Georgia, serif; font-size: 18px; font-style: italic; }
+.sceneStamp { display: grid; place-items: center; width: 62px; height: 62px; border: 2px solid var(--ink); border-radius: 47% 53% 51% 49%; background: var(--coral); color: white; font-size: 13px; font-weight: 800; letter-spacing: .08em; transform: rotate(-8deg); }
+.heroCopy > h2 { max-width: 600px; margin: 36px 0 16px; font-size: 28px; line-height: 1.35; }
+.heroDescription { max-width: 620px; margin: 0; color: #625e56; font-size: 16px; line-height: 1.8; }
+.sceneMeta { display: flex; flex-wrap: wrap; margin-top: 30px; gap: 9px; }
+.sceneMeta span { padding: 7px 11px; border: 1px solid rgba(38, 37, 31, .55); border-radius: 999px; background: rgba(255, 250, 241, .65); font-size: 11px; font-weight: 700; }
+
+.emergencyCard { position: relative; padding: 32px; border: 2px solid var(--ink); background: var(--cream); box-shadow: 9px 10px 0 var(--ink); transform: rotate(1deg); }
+.emergencyCard::before { position: absolute; top: -14px; left: 43%; width: 82px; height: 28px; background: rgba(107, 154, 196, .55); content: ""; transform: rotate(-3deg); }
+.cardLabel { margin: 0; color: var(--coral); font-size: 10px; font-weight: 800; letter-spacing: .18em; }
+.emergencyCard > h2 { margin: 10px 0 26px; font-family: "Kaiti SC", "STKaiti", serif; font-size: 30px; }
+.emergencyList { display: grid; }
+.emergencyPhrase { display: grid; grid-template-columns: auto 1fr auto; align-items: center; min-height: 82px; border-top: 1px solid rgba(38, 37, 31, .18); gap: 13px; }
+.phraseIndex { color: var(--coral); font-family: Georgia, serif; font-size: 12px; font-weight: 700; }
+.emergencyPhrase strong, .emergencyPhrase small { display: block; }
+.emergencyPhrase strong { line-height: 1.35; }
+.emergencyPhrase small { margin-top: 4px; color: #746e65; }
+
+.listenButton,
+.compactListenButton {
+  border: 1.5px solid var(--ink);
+  border-radius: 999px;
+  background: var(--paper);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+.listenButton { padding: 8px 12px; font-size: 11px; }
+.compactListenButton { display: grid; place-items: center; width: 42px; height: 42px; font-size: 10px; }
+.listenButton span, .compactListenButton span { margin-right: 4px; color: var(--blue); }
+.compactListenButton span { margin: 0; }
+.listenButton:hover, .compactListenButton:hover { background: var(--blue); color: white; transform: translateY(-2px); }
+.listenButton:hover span, .compactListenButton:hover span { color: white; }
+.listenButton:focus-visible, .compactListenButton:focus-visible, .relatedGrid a:focus-visible, .backLink:focus-visible, .brandLink:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+
+.routeSection { padding: 96px 0 40px; border-top: 1px solid rgba(38, 37, 31, .2); }
+.sectionHeading { display: grid; grid-template-columns: 1.1fr .9fr; align-items: end; margin-bottom: 52px; gap: 20px 55px; }
+.sectionHeading .eyebrow { grid-column: 1 / -1; margin-bottom: -4px; }
+.sectionHeading h2 { margin: 0; font-family: "Kaiti SC", "STKaiti", serif; font-size: 46px; }
+.sectionHeading > p:last-child { margin: 0; color: #6d675e; line-height: 1.7; }
+.missionList { display: grid; gap: 62px; }
+.mission { border-top: 3px solid var(--ink); }
+.missionHeader { display: grid; grid-template-columns: 70px 1fr auto; align-items: start; padding: 22px 0 24px; border-bottom: 1px solid rgba(38, 37, 31, .2); gap: 18px; }
+.missionHeader > span { color: var(--coral); font-family: Georgia, serif; font-size: 31px; }
+.missionHeader h3 { margin: 0; font-family: "Kaiti SC", "STKaiti", serif; font-size: 33px; }
+.missionHeader p { margin: 6px 0 0; color: #716b62; }
+.missionHeader > small { padding: 6px 10px; border-radius: 999px; background: var(--yellow); font-weight: 700; }
+.missionBody { display: grid; grid-template-columns: 1.05fr .95fr; min-height: 480px; }
+.phrasePanel { padding: 32px 42px 12px 0; border-right: 1px solid rgba(38, 37, 31, .2); }
+.sidePanel { display: grid; align-content: start; padding: 32px 0 12px 42px; gap: 34px; }
+.phrasePanel h4, .sidePanel h4 { margin: 0 0 18px; font-size: 12px; letter-spacing: .11em; }
+.phraseList { display: grid; }
+.phraseRow { display: grid; grid-template-columns: 1fr auto; align-items: center; min-height: 88px; border-top: 1px solid rgba(38, 37, 31, .16); gap: 16px; }
+.phraseRow:first-child { border-top-color: var(--ink); }
+.phraseRow strong, .phraseRow span { display: block; }
+.phraseRow strong { color: #3f6f98; font-size: 17px; line-height: 1.4; }
+.phraseRow span { margin-top: 5px; color: #756f65; font-size: 13px; }
+.wordList { display: flex; flex-wrap: wrap; gap: 9px; }
+.wordList > span { display: grid; padding: 7px 10px; border: 1px solid rgba(38, 37, 31, .45); border-radius: 4px; background: rgba(255, 250, 241, .74); font-size: 10px; }
+.wordList b { font-size: 12px; }
+.dialogue { padding: 24px; background: #d9e3dc; box-shadow: 4px 5px 0 var(--ink); }
+.youLine, .otherLine { width: 86%; margin-top: 13px; padding: 12px 14px; border: 1px solid rgba(38, 37, 31, .32); background: var(--cream); }
+.youLine { margin-left: auto; border-radius: 12px 2px 12px 12px; }
+.otherLine { margin-right: auto; border-radius: 2px 12px 12px 12px; }
+.youLine small, .otherLine small { color: var(--coral); font-weight: 800; }
+.youLine p, .otherLine p { margin: 4px 0; font-weight: 700; line-height: 1.4; }
+.youLine span, .otherLine span { color: #706a61; font-size: 11px; }
+
+.practiceSection { display: grid; grid-template-columns: .78fr 1.22fr; align-items: center; margin-top: 100px; padding: 52px; border: 2px solid var(--ink); background: var(--blue); box-shadow: 7px 8px 0 var(--ink); gap: 54px; }
+.practiceSection h2 { margin: 0; font-family: "Kaiti SC", "STKaiti", serif; font-size: 38px; }
+.practiceSection ol { display: grid; grid-template-columns: repeat(3, 1fr); margin: 0; padding: 0; list-style: none; gap: 20px; }
+.practiceSection li { min-height: 136px; padding: 20px; border: 1.5px solid var(--ink); background: var(--cream); transform: rotate(-1deg); }
+.practiceSection li:nth-child(2) { transform: rotate(1deg) translateY(-6px); }
+.practiceSection li:nth-child(3) { transform: rotate(-.5deg); }
+.practiceSection li b, .practiceSection li span { display: block; }
+.practiceSection li b { margin-bottom: 13px; color: var(--coral); }
+.practiceSection li span { line-height: 1.6; }
+
+.relatedSection { padding: 110px 0 100px; }
+.relatedSection h2 { margin: 0 0 32px; font-family: "Kaiti SC", "STKaiti", serif; font-size: 40px; }
+.relatedGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.relatedGrid a { display: grid; grid-template-columns: auto 1fr auto; align-items: center; min-height: 104px; padding: 18px; border-top: 2px solid var(--ink); border-bottom: 1px solid rgba(38, 37, 31, .24); color: var(--ink); text-decoration: none; gap: 14px; transition: background .2s ease, transform .2s ease; }
+.relatedGrid a:hover { background: var(--cream); transform: translateY(-3px); }
+.relatedGrid a > span { display: grid; place-items: center; width: 44px; height: 44px; border: 1.5px solid var(--ink); border-radius: 50%; background: var(--yellow); font-size: 10px; font-weight: 800; }
+.relatedGrid strong, .relatedGrid small { display: block; }
+.relatedGrid small { margin-top: 4px; color: #777065; }
+.relatedGrid a > b { color: var(--coral); font-size: 20px; }
+
+.footer { display: flex; align-items: center; padding: 38px 0 50px; border-top: 1px solid rgba(38, 37, 31, .18); gap: 35px; }
+.footer p { margin-left: auto; color: #716b62; }
+
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; padding-top: 58px; gap: 55px; }
+  .emergencyCard { width: min(620px, 100%); margin: 0 auto; }
+  .missionBody { grid-template-columns: 1fr; }
+  .phrasePanel { padding-right: 0; border-right: 0; }
+  .sidePanel { grid-template-columns: .8fr 1.2fr; padding-left: 0; }
+  .practiceSection { grid-template-columns: 1fr; }
+  .relatedGrid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .header,
+  .hero,
+  .routeSection,
+  .practiceSection,
+  .relatedSection,
+  .footer { width: calc(100% - 32px); }
+  .header { min-height: 68px; }
+  .backLink { font-size: 11px; }
+  .hero { min-height: 0; padding: 50px 0 72px; }
+  .titleRow { align-items: flex-start; }
+  .titleRow h1 { font-size: 54px; }
+  .sceneStamp { width: 52px; height: 52px; }
+  .heroCopy > h2 { margin-top: 28px; font-size: 23px; }
+  .emergencyCard { padding: 27px 20px; box-shadow: 6px 7px 0 var(--ink); }
+  .emergencyPhrase { grid-template-columns: 1fr auto; padding: 15px 0; }
+  .phraseIndex { display: none; }
+  .routeSection { padding-top: 72px; }
+  .sectionHeading { grid-template-columns: 1fr; }
+  .sectionHeading .eyebrow { grid-column: auto; }
+  .sectionHeading h2 { font-size: 38px; }
+  .missionList { gap: 50px; }
+  .missionHeader { grid-template-columns: 48px 1fr; }
+  .missionHeader > small { grid-column: 2; justify-self: start; }
+  .missionBody { min-height: 0; }
+  .phrasePanel { padding-top: 26px; }
+  .phraseRow { min-height: 104px; }
+  .phraseRow strong { font-size: 15px; }
+  .listenButton { padding: 8px 10px; }
+  .sidePanel { grid-template-columns: 1fr; padding-top: 28px; gap: 28px; }
+  .dialogue { margin: 0 -4px; padding: 18px; }
+  .practiceSection { margin-top: 72px; padding: 34px 22px; box-shadow: 5px 6px 0 var(--ink); }
+  .practiceSection ol { grid-template-columns: 1fr; }
+  .practiceSection li, .practiceSection li:nth-child(2), .practiceSection li:nth-child(3) { min-height: auto; transform: none; }
+  .relatedSection { padding: 80px 0; }
+  .footer { align-items: flex-start; flex-direction: column; padding-bottom: 44px; gap: 18px; }
+  .footer p { margin: 0; }
+}

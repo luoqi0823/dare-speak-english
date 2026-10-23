@@ -1,0 +1,22 @@
+.authCard { position: relative; width: min(440px, 100%); padding: 34px; border: 2px solid var(--ink); border-radius: 3px; background: var(--cream); box-shadow: 8px 9px 0 var(--ink); }
+.authCard::before { position: absolute; top: -9px; right: 28px; width: 74px; height: 18px; background: rgba(242, 203, 103, .72); content: ""; transform: rotate(2deg); }
+.tabs { display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 28px; border-bottom: 1px solid rgba(38, 37, 31, .2); }
+.tabs button { padding: 11px; border: 0; background: transparent; color: #7c756b; font-weight: 700; cursor: pointer; }
+.tabs .activeTab { border-bottom: 4px solid var(--coral); color: var(--ink); }
+.authCard h2 { margin: 18px 0 4px; font-family: "Kaiti SC", "STKaiti", serif; font-size: 32px; }
+.formIntro { margin: 0 0 10px; color: #746d64; line-height: 1.6; }
+.backButton, .forgotButton { padding: 0; border: 0; background: transparent; color: var(--ink); font-weight: 700; text-decoration: underline; text-decoration-color: var(--coral); text-underline-offset: 4px; cursor: pointer; }
+.forgotButton { margin-top: 18px; font-size: 13px; }
+.authCard form { display: grid; }
+.authCard label { margin: 13px 0 7px; font-size: 13px; font-weight: 700; }
+.authCard input { width: 100%; padding: 14px 15px; border: 1.5px solid var(--ink); border-radius: 2px; outline: none; background: white; font-size: 16px; transition: box-shadow .18s ease, transform .18s ease; }
+.authCard input:focus { box-shadow: 3px 3px 0 var(--yellow); transform: translate(-1px, -1px); }
+.submitButton { margin-top: 24px; padding: 15px; border: 2px solid var(--ink); border-radius: 2px; background: var(--coral); box-shadow: 4px 5px 0 var(--ink); color: white; font-weight: 800; cursor: pointer; transition: box-shadow .18s ease, transform .18s ease; }
+.submitButton:hover:not(:disabled) { box-shadow: 2px 3px 0 var(--ink); transform: translate(2px, 2px); }
+.submitButton:disabled { cursor: wait; opacity: .65; }
+.message { margin: 18px 0 0; padding: 11px; background: #f3d886; font-size: 13px; line-height: 1.5; }
+.authCard small { display: block; margin-top: 18px; color: #817a70; line-height: 1.6; }
+
+@media (max-width: 460px) {
+  .authCard { padding: 26px 22px; box-shadow: 5px 6px 0 var(--ink); }
+}

@@ -1,0 +1,1446 @@
+{
+  "version": 1,
+  "count": 180,
+  "files": [
+    {
+      "lesson": "survival-01",
+      "position": 1,
+      "english": "hello",
+      "chinese": "你好",
+      "objectPath": "v1/survival-01-01-hello.webp",
+      "bytes": 14566
+    },
+    {
+      "lesson": "survival-01",
+      "position": 2,
+      "english": "name",
+      "chinese": "名字",
+      "objectPath": "v1/survival-01-02-name.webp",
+      "bytes": 15720
+    },
+    {
+      "lesson": "survival-01",
+      "position": 3,
+      "english": "meet",
+      "chinese": "见面",
+      "objectPath": "v1/survival-01-03-meet.webp",
+      "bytes": 16750
+    },
+    {
+      "lesson": "survival-01",
+      "position": 4,
+      "english": "from",
+      "chinese": "来自",
+      "objectPath": "v1/survival-01-04-from.webp",
+      "bytes": 23406
+    },
+    {
+      "lesson": "survival-01",
+      "position": 5,
+      "english": "friend",
+      "chinese": "朋友",
+      "objectPath": "v1/survival-01-05-friend.webp",
+      "bytes": 26938
+    },
+    {
+      "lesson": "survival-01",
+      "position": 6,
+      "english": "Nice to meet you.",
+      "chinese": "很高兴认识你。",
+      "objectPath": "v1/survival-01-06-nice-to-meet-you.webp",
+      "bytes": 29090
+    },
+    {
+      "lesson": "survival-02",
+      "position": 1,
+      "english": "live",
+      "chinese": "居住",
+      "objectPath": "v1/survival-02-01-live.webp",
+      "bytes": 61796
+    },
+    {
+      "lesson": "survival-02",
+      "position": 2,
+      "english": "work",
+      "chinese": "工作",
+      "objectPath": "v1/survival-02-02-work.webp",
+      "bytes": 38308
+    },
+    {
+      "lesson": "survival-02",
+      "position": 3,
+      "english": "developer",
+      "chinese": "开发者",
+      "objectPath": "v1/survival-02-03-developer.webp",
+      "bytes": 39796
+    },
+    {
+      "lesson": "survival-02",
+      "position": 4,
+      "english": "hobby",
+      "chinese": "爱好",
+      "objectPath": "v1/survival-02-04-hobby.webp",
+      "bytes": 48958
+    },
+    {
+      "lesson": "survival-02",
+      "position": 5,
+      "english": "like",
+      "chinese": "喜欢",
+      "objectPath": "v1/survival-02-05-like.webp",
+      "bytes": 35508
+    },
+    {
+      "lesson": "survival-02",
+      "position": 6,
+      "english": "I work as a developer.",
+      "chinese": "我是一名前端开发者。",
+      "objectPath": "v1/survival-02-06-i-work-as-a-developer.webp",
+      "bytes": 43234
+    },
+    {
+      "lesson": "survival-03",
+      "position": 1,
+      "english": "zero",
+      "chinese": "零",
+      "objectPath": "v1/survival-03-01-zero.webp",
+      "bytes": 8778
+    },
+    {
+      "lesson": "survival-03",
+      "position": 2,
+      "english": "one",
+      "chinese": "一",
+      "objectPath": "v1/survival-03-02-one.webp",
+      "bytes": 10866
+    },
+    {
+      "lesson": "survival-03",
+      "position": 3,
+      "english": "five",
+      "chinese": "五",
+      "objectPath": "v1/survival-03-03-five.webp",
+      "bytes": 14102
+    },
+    {
+      "lesson": "survival-03",
+      "position": 4,
+      "english": "number",
+      "chinese": "号码；数字",
+      "objectPath": "v1/survival-03-04-number.webp",
+      "bytes": 20618
+    },
+    {
+      "lesson": "survival-03",
+      "position": 5,
+      "english": "phone",
+      "chinese": "电话",
+      "objectPath": "v1/survival-03-05-phone.webp",
+      "bytes": 16590
+    },
+    {
+      "lesson": "survival-03",
+      "position": 6,
+      "english": "What's your phone number?",
+      "chinese": "你的电话号码是多少？",
+      "objectPath": "v1/survival-03-06-whats-your-phone-number.webp",
+      "bytes": 37542
+    },
+    {
+      "lesson": "survival-04",
+      "position": 1,
+      "english": "today",
+      "chinese": "今天",
+      "objectPath": "v1/survival-04-01-today.webp",
+      "bytes": 20128
+    },
+    {
+      "lesson": "survival-04",
+      "position": 2,
+      "english": "tomorrow",
+      "chinese": "明天",
+      "objectPath": "v1/survival-04-02-tomorrow.webp",
+      "bytes": 22544
+    },
+    {
+      "lesson": "survival-04",
+      "position": 3,
+      "english": "morning",
+      "chinese": "早晨",
+      "objectPath": "v1/survival-04-03-morning.webp",
+      "bytes": 31738
+    },
+    {
+      "lesson": "survival-04",
+      "position": 4,
+      "english": "evening",
+      "chinese": "晚上",
+      "objectPath": "v1/survival-04-04-evening.webp",
+      "bytes": 36644
+    },
+    {
+      "lesson": "survival-04",
+      "position": 5,
+      "english": "time",
+      "chinese": "时间",
+      "objectPath": "v1/survival-04-05-time.webp",
+      "bytes": 15044
+    },
+    {
+      "lesson": "survival-04",
+      "position": 6,
+      "english": "What time is it?",
+      "chinese": "现在几点？",
+      "objectPath": "v1/survival-04-06-what-time-is-it.webp",
+      "bytes": 33216
+    },
+    {
+      "lesson": "survival-05",
+      "position": 1,
+      "english": "understand",
+      "chinese": "理解",
+      "objectPath": "v1/survival-05-01-understand.webp",
+      "bytes": 30366
+    },
+    {
+      "lesson": "survival-05",
+      "position": 2,
+      "english": "repeat",
+      "chinese": "重复",
+      "objectPath": "v1/survival-05-02-repeat.webp",
+      "bytes": 32038
+    },
+    {
+      "lesson": "survival-05",
+      "position": 3,
+      "english": "slowly",
+      "chinese": "慢慢地",
+      "objectPath": "v1/survival-05-03-slowly.webp",
+      "bytes": 24120
+    },
+    {
+      "lesson": "survival-05",
+      "position": 4,
+      "english": "again",
+      "chinese": "再一次",
+      "objectPath": "v1/survival-05-04-again.webp",
+      "bytes": 26892
+    },
+    {
+      "lesson": "survival-05",
+      "position": 5,
+      "english": "help",
+      "chinese": "帮助",
+      "objectPath": "v1/survival-05-05-help.webp",
+      "bytes": 39236
+    },
+    {
+      "lesson": "survival-05",
+      "position": 6,
+      "english": "Could you say that again?",
+      "chinese": "你可以再说一遍吗？",
+      "objectPath": "v1/survival-05-06-could-you-say-that-again.webp",
+      "bytes": 32200
+    },
+    {
+      "lesson": "survival-06",
+      "position": 1,
+      "english": "coffee",
+      "chinese": "咖啡",
+      "objectPath": "v1/survival-06-01-coffee.webp",
+      "bytes": 15352
+    },
+    {
+      "lesson": "survival-06",
+      "position": 2,
+      "english": "tea",
+      "chinese": "茶",
+      "objectPath": "v1/survival-06-02-tea.webp",
+      "bytes": 13900
+    },
+    {
+      "lesson": "survival-06",
+      "position": 3,
+      "english": "hot",
+      "chinese": "热的",
+      "objectPath": "v1/survival-06-03-hot.webp",
+      "bytes": 18254
+    },
+    {
+      "lesson": "survival-06",
+      "position": 4,
+      "english": "iced",
+      "chinese": "加冰的",
+      "objectPath": "v1/survival-06-04-iced.webp",
+      "bytes": 23768
+    },
+    {
+      "lesson": "survival-06",
+      "position": 5,
+      "english": "cup",
+      "chinese": "杯子",
+      "objectPath": "v1/survival-06-05-cup.webp",
+      "bytes": 14734
+    },
+    {
+      "lesson": "survival-06",
+      "position": 6,
+      "english": "An iced coffee, please.",
+      "chinese": "请给我一杯冰咖啡。",
+      "objectPath": "v1/survival-06-06-an-iced-coffee-please.webp",
+      "bytes": 39926
+    },
+    {
+      "lesson": "survival-07",
+      "position": 1,
+      "english": "bread",
+      "chinese": "面包",
+      "objectPath": "v1/survival-07-01-bread.webp",
+      "bytes": 36838
+    },
+    {
+      "lesson": "survival-07",
+      "position": 2,
+      "english": "egg",
+      "chinese": "鸡蛋",
+      "objectPath": "v1/survival-07-02-egg.webp",
+      "bytes": 12564
+    },
+    {
+      "lesson": "survival-07",
+      "position": 3,
+      "english": "milk",
+      "chinese": "牛奶",
+      "objectPath": "v1/survival-07-03-milk.webp",
+      "bytes": 14164
+    },
+    {
+      "lesson": "survival-07",
+      "position": 4,
+      "english": "banana",
+      "chinese": "香蕉",
+      "objectPath": "v1/survival-07-04-banana.webp",
+      "bytes": 13952
+    },
+    {
+      "lesson": "survival-07",
+      "position": 5,
+      "english": "sandwich",
+      "chinese": "三明治",
+      "objectPath": "v1/survival-07-05-sandwich.webp",
+      "bytes": 33106
+    },
+    {
+      "lesson": "survival-07",
+      "position": 6,
+      "english": "Can I have a sandwich?",
+      "chinese": "我可以要一个三明治吗？",
+      "objectPath": "v1/survival-07-06-can-i-have-a-sandwich.webp",
+      "bytes": 39882
+    },
+    {
+      "lesson": "survival-08",
+      "position": 1,
+      "english": "menu",
+      "chinese": "菜单",
+      "objectPath": "v1/survival-08-01-menu.webp",
+      "bytes": 32138
+    },
+    {
+      "lesson": "survival-08",
+      "position": 2,
+      "english": "order",
+      "chinese": "点餐；订单",
+      "objectPath": "v1/survival-08-02-order.webp",
+      "bytes": 25018
+    },
+    {
+      "lesson": "survival-08",
+      "position": 3,
+      "english": "chicken",
+      "chinese": "鸡肉",
+      "objectPath": "v1/survival-08-03-chicken.webp",
+      "bytes": 39708
+    },
+    {
+      "lesson": "survival-08",
+      "position": 4,
+      "english": "rice",
+      "chinese": "米饭",
+      "objectPath": "v1/survival-08-04-rice.webp",
+      "bytes": 19574
+    },
+    {
+      "lesson": "survival-08",
+      "position": 5,
+      "english": "noodles",
+      "chinese": "面条",
+      "objectPath": "v1/survival-08-05-noodles.webp",
+      "bytes": 32322
+    },
+    {
+      "lesson": "survival-08",
+      "position": 6,
+      "english": "I'd like the chicken rice.",
+      "chinese": "我想要鸡肉饭。",
+      "objectPath": "v1/survival-08-06-id-like-the-chicken-rice.webp",
+      "bytes": 42000
+    },
+    {
+      "lesson": "survival-09",
+      "position": 1,
+      "english": "sweet",
+      "chinese": "甜的",
+      "objectPath": "v1/survival-09-01-sweet.webp",
+      "bytes": 36856
+    },
+    {
+      "lesson": "survival-09",
+      "position": 2,
+      "english": "spicy",
+      "chinese": "辣的",
+      "objectPath": "v1/survival-09-02-spicy.webp",
+      "bytes": 24070
+    },
+    {
+      "lesson": "survival-09",
+      "position": 3,
+      "english": "salt",
+      "chinese": "盐",
+      "objectPath": "v1/survival-09-03-salt.webp",
+      "bytes": 22218
+    },
+    {
+      "lesson": "survival-09",
+      "position": 4,
+      "english": "allergy",
+      "chinese": "过敏",
+      "objectPath": "v1/survival-09-04-allergy.webp",
+      "bytes": 35258
+    },
+    {
+      "lesson": "survival-09",
+      "position": 5,
+      "english": "vegetarian",
+      "chinese": "素食者",
+      "objectPath": "v1/survival-09-05-vegetarian.webp",
+      "bytes": 42568
+    },
+    {
+      "lesson": "survival-09",
+      "position": 6,
+      "english": "I'm allergic to peanuts.",
+      "chinese": "我对花生过敏。",
+      "objectPath": "v1/survival-09-06-im-allergic-to-peanuts.webp",
+      "bytes": 37086
+    },
+    {
+      "lesson": "survival-10",
+      "position": 1,
+      "english": "bill",
+      "chinese": "账单",
+      "objectPath": "v1/survival-10-01-bill.webp",
+      "bytes": 26842
+    },
+    {
+      "lesson": "survival-10",
+      "position": 2,
+      "english": "cash",
+      "chinese": "现金",
+      "objectPath": "v1/survival-10-02-cash.webp",
+      "bytes": 26288
+    },
+    {
+      "lesson": "survival-10",
+      "position": 3,
+      "english": "card",
+      "chinese": "卡",
+      "objectPath": "v1/survival-10-03-card.webp",
+      "bytes": 19222
+    },
+    {
+      "lesson": "survival-10",
+      "position": 4,
+      "english": "change",
+      "chinese": "零钱",
+      "objectPath": "v1/survival-10-04-change.webp",
+      "bytes": 20010
+    },
+    {
+      "lesson": "survival-10",
+      "position": 5,
+      "english": "receipt",
+      "chinese": "收据",
+      "objectPath": "v1/survival-10-05-receipt.webp",
+      "bytes": 20662
+    },
+    {
+      "lesson": "survival-10",
+      "position": 6,
+      "english": "Could I have the bill?",
+      "chinese": "可以给我账单吗？",
+      "objectPath": "v1/survival-10-06-could-i-have-the-bill.webp",
+      "bytes": 41016
+    },
+    {
+      "lesson": "survival-11",
+      "position": 1,
+      "english": "passport",
+      "chinese": "护照",
+      "objectPath": "v1/survival-11-01-passport.webp",
+      "bytes": 21314
+    },
+    {
+      "lesson": "survival-11",
+      "position": 2,
+      "english": "flight",
+      "chinese": "航班",
+      "objectPath": "v1/survival-11-02-flight.webp",
+      "bytes": 24296
+    },
+    {
+      "lesson": "survival-11",
+      "position": 3,
+      "english": "ticket",
+      "chinese": "票",
+      "objectPath": "v1/survival-11-03-ticket.webp",
+      "bytes": 12072
+    },
+    {
+      "lesson": "survival-11",
+      "position": 4,
+      "english": "luggage",
+      "chinese": "行李",
+      "objectPath": "v1/survival-11-04-luggage.webp",
+      "bytes": 18156
+    },
+    {
+      "lesson": "survival-11",
+      "position": 5,
+      "english": "window",
+      "chinese": "窗户；靠窗位置",
+      "objectPath": "v1/survival-11-05-window.webp",
+      "bytes": 20146
+    },
+    {
+      "lesson": "survival-11",
+      "position": 6,
+      "english": "I'd like a window seat.",
+      "chinese": "我想要靠窗座位。",
+      "objectPath": "v1/survival-11-06-id-like-a-window-seat.webp",
+      "bytes": 40038
+    },
+    {
+      "lesson": "survival-12",
+      "position": 1,
+      "english": "gate",
+      "chinese": "登机口",
+      "objectPath": "v1/survival-12-01-gate.webp",
+      "bytes": 42056
+    },
+    {
+      "lesson": "survival-12",
+      "position": 2,
+      "english": "boarding",
+      "chinese": "登机",
+      "objectPath": "v1/survival-12-02-boarding.webp",
+      "bytes": 35504
+    },
+    {
+      "lesson": "survival-12",
+      "position": 3,
+      "english": "seat",
+      "chinese": "座位",
+      "objectPath": "v1/survival-12-03-seat.webp",
+      "bytes": 35280
+    },
+    {
+      "lesson": "survival-12",
+      "position": 4,
+      "english": "belt",
+      "chinese": "安全带",
+      "objectPath": "v1/survival-12-04-belt.webp",
+      "bytes": 43696
+    },
+    {
+      "lesson": "survival-12",
+      "position": 5,
+      "english": "security",
+      "chinese": "安检；安全",
+      "objectPath": "v1/survival-12-05-security.webp",
+      "bytes": 35156
+    },
+    {
+      "lesson": "survival-12",
+      "position": 6,
+      "english": "Where is Gate 12?",
+      "chinese": "12号登机口在哪里？",
+      "objectPath": "v1/survival-12-06-where-is-gate-12.webp",
+      "bytes": 36678
+    },
+    {
+      "lesson": "survival-13",
+      "position": 1,
+      "english": "country",
+      "chinese": "国家",
+      "objectPath": "v1/survival-13-01-country.webp",
+      "bytes": 35726
+    },
+    {
+      "lesson": "survival-13",
+      "position": 2,
+      "english": "purpose",
+      "chinese": "目的",
+      "objectPath": "v1/survival-13-02-purpose.webp",
+      "bytes": 35570
+    },
+    {
+      "lesson": "survival-13",
+      "position": 3,
+      "english": "visit",
+      "chinese": "参观；拜访",
+      "objectPath": "v1/survival-13-03-visit.webp",
+      "bytes": 43136
+    },
+    {
+      "lesson": "survival-13",
+      "position": 4,
+      "english": "holiday",
+      "chinese": "假期",
+      "objectPath": "v1/survival-13-04-holiday.webp",
+      "bytes": 43534
+    },
+    {
+      "lesson": "survival-13",
+      "position": 5,
+      "english": "address",
+      "chinese": "地址",
+      "objectPath": "v1/survival-13-05-address.webp",
+      "bytes": 26428
+    },
+    {
+      "lesson": "survival-13",
+      "position": 6,
+      "english": "I'm here for a holiday.",
+      "chinese": "我是来度假的。",
+      "objectPath": "v1/survival-13-06-im-here-for-a-holiday.webp",
+      "bytes": 34464
+    },
+    {
+      "lesson": "survival-14",
+      "position": 1,
+      "english": "taxi",
+      "chinese": "出租车",
+      "objectPath": "v1/survival-14-01-taxi.webp",
+      "bytes": 50726
+    },
+    {
+      "lesson": "survival-14",
+      "position": 2,
+      "english": "subway",
+      "chinese": "地铁",
+      "objectPath": "v1/survival-14-02-subway.webp",
+      "bytes": 43894
+    },
+    {
+      "lesson": "survival-14",
+      "position": 3,
+      "english": "station",
+      "chinese": "车站",
+      "objectPath": "v1/survival-14-03-station.webp",
+      "bytes": 45728
+    },
+    {
+      "lesson": "survival-14",
+      "position": 4,
+      "english": "left",
+      "chinese": "左边",
+      "objectPath": "v1/survival-14-04-left.webp",
+      "bytes": 38018
+    },
+    {
+      "lesson": "survival-14",
+      "position": 5,
+      "english": "right",
+      "chinese": "右边",
+      "objectPath": "v1/survival-14-05-right.webp",
+      "bytes": 36840
+    },
+    {
+      "lesson": "survival-14",
+      "position": 6,
+      "english": "Please take me to this address.",
+      "chinese": "请带我去这个地址。",
+      "objectPath": "v1/survival-14-06-please-take-me-to-this-address.webp",
+      "bytes": 42758
+    },
+    {
+      "lesson": "survival-15",
+      "position": 1,
+      "english": "straight",
+      "chinese": "直行",
+      "objectPath": "v1/survival-15-01-straight.webp",
+      "bytes": 35942
+    },
+    {
+      "lesson": "survival-15",
+      "position": 2,
+      "english": "far",
+      "chinese": "远的",
+      "objectPath": "v1/survival-15-02-far.webp",
+      "bytes": 40066
+    },
+    {
+      "lesson": "survival-15",
+      "position": 3,
+      "english": "near",
+      "chinese": "附近的",
+      "objectPath": "v1/survival-15-03-near.webp",
+      "bytes": 50142
+    },
+    {
+      "lesson": "survival-15",
+      "position": 4,
+      "english": "map",
+      "chinese": "地图",
+      "objectPath": "v1/survival-15-04-map.webp",
+      "bytes": 24346
+    },
+    {
+      "lesson": "survival-15",
+      "position": 5,
+      "english": "arrive",
+      "chinese": "到达",
+      "objectPath": "v1/survival-15-05-arrive.webp",
+      "bytes": 42488
+    },
+    {
+      "lesson": "survival-15",
+      "position": 6,
+      "english": "Is it far from here?",
+      "chinese": "离这里远吗？",
+      "objectPath": "v1/survival-15-06-is-it-far-from-here.webp",
+      "bytes": 45226
+    },
+    {
+      "lesson": "survival-16",
+      "position": 1,
+      "english": "hotel",
+      "chinese": "酒店",
+      "objectPath": "v1/survival-16-01-hotel.webp",
+      "bytes": 43524
+    },
+    {
+      "lesson": "survival-16",
+      "position": 2,
+      "english": "reservation",
+      "chinese": "预订",
+      "objectPath": "v1/survival-16-02-reservation.webp",
+      "bytes": 18012
+    },
+    {
+      "lesson": "survival-16",
+      "position": 3,
+      "english": "room",
+      "chinese": "房间",
+      "objectPath": "v1/survival-16-03-room.webp",
+      "bytes": 40264
+    },
+    {
+      "lesson": "survival-16",
+      "position": 4,
+      "english": "key",
+      "chinese": "钥匙",
+      "objectPath": "v1/survival-16-04-key.webp",
+      "bytes": 18302
+    },
+    {
+      "lesson": "survival-16",
+      "position": 5,
+      "english": "night",
+      "chinese": "夜晚；住宿晚数",
+      "objectPath": "v1/survival-16-05-night.webp",
+      "bytes": 59052
+    },
+    {
+      "lesson": "survival-16",
+      "position": 6,
+      "english": "I have a reservation.",
+      "chinese": "我有预订。",
+      "objectPath": "v1/survival-16-06-i-have-a-reservation.webp",
+      "bytes": 42366
+    },
+    {
+      "lesson": "survival-17",
+      "position": 1,
+      "english": "elevator",
+      "chinese": "电梯",
+      "objectPath": "v1/survival-17-01-elevator.webp",
+      "bytes": 34456
+    },
+    {
+      "lesson": "survival-17",
+      "position": 2,
+      "english": "wifi",
+      "chinese": "无线网络",
+      "objectPath": "v1/survival-17-02-wifi.webp",
+      "bytes": 21110
+    },
+    {
+      "lesson": "survival-17",
+      "position": 3,
+      "english": "breakfast",
+      "chinese": "早餐",
+      "objectPath": "v1/survival-17-03-breakfast.webp",
+      "bytes": 33070
+    },
+    {
+      "lesson": "survival-17",
+      "position": 4,
+      "english": "towel",
+      "chinese": "毛巾",
+      "objectPath": "v1/survival-17-04-towel.webp",
+      "bytes": 31090
+    },
+    {
+      "lesson": "survival-17",
+      "position": 5,
+      "english": "shower",
+      "chinese": "淋浴",
+      "objectPath": "v1/survival-17-05-shower.webp",
+      "bytes": 28386
+    },
+    {
+      "lesson": "survival-17",
+      "position": 6,
+      "english": "What's the Wi-Fi password?",
+      "chinese": "无线网络密码是什么？",
+      "objectPath": "v1/survival-17-06-whats-the-wi-fi-password.webp",
+      "bytes": 39884
+    },
+    {
+      "lesson": "survival-18",
+      "position": 1,
+      "english": "broken",
+      "chinese": "坏的",
+      "objectPath": "v1/survival-18-01-broken.webp",
+      "bytes": 23460
+    },
+    {
+      "lesson": "survival-18",
+      "position": 2,
+      "english": "noise",
+      "chinese": "噪音",
+      "objectPath": "v1/survival-18-02-noise.webp",
+      "bytes": 30742
+    },
+    {
+      "lesson": "survival-18",
+      "position": 3,
+      "english": "cold",
+      "chinese": "冷的",
+      "objectPath": "v1/survival-18-03-cold.webp",
+      "bytes": 33442
+    },
+    {
+      "lesson": "survival-18",
+      "position": 4,
+      "english": "clean",
+      "chinese": "干净的；清洁",
+      "objectPath": "v1/survival-18-04-clean.webp",
+      "bytes": 26976
+    },
+    {
+      "lesson": "survival-18",
+      "position": 5,
+      "english": "light",
+      "chinese": "灯；光",
+      "objectPath": "v1/survival-18-05-light.webp",
+      "bytes": 30160
+    },
+    {
+      "lesson": "survival-18",
+      "position": 6,
+      "english": "The shower is broken.",
+      "chinese": "淋浴坏了。",
+      "objectPath": "v1/survival-18-06-the-shower-is-broken.webp",
+      "bytes": 38162
+    },
+    {
+      "lesson": "survival-19",
+      "position": 1,
+      "english": "checkout",
+      "chinese": "退房",
+      "objectPath": "v1/survival-19-01-checkout.webp",
+      "bytes": 39234
+    },
+    {
+      "lesson": "survival-19",
+      "position": 2,
+      "english": "late",
+      "chinese": "晚的；迟的",
+      "objectPath": "v1/survival-19-02-late.webp",
+      "bytes": 41066
+    },
+    {
+      "lesson": "survival-19",
+      "position": 3,
+      "english": "bags",
+      "chinese": "包；行李",
+      "objectPath": "v1/survival-19-03-bags.webp",
+      "bytes": 37182
+    },
+    {
+      "lesson": "survival-19",
+      "position": 4,
+      "english": "call",
+      "chinese": "打电话",
+      "objectPath": "v1/survival-19-04-call.webp",
+      "bytes": 32206
+    },
+    {
+      "lesson": "survival-19",
+      "position": 5,
+      "english": "service",
+      "chinese": "服务",
+      "objectPath": "v1/survival-19-05-service.webp",
+      "bytes": 39938
+    },
+    {
+      "lesson": "survival-19",
+      "position": 6,
+      "english": "Can I check out late?",
+      "chinese": "我可以延迟退房吗？",
+      "objectPath": "v1/survival-19-06-can-i-check-out-late.webp",
+      "bytes": 35824
+    },
+    {
+      "lesson": "survival-20",
+      "position": 1,
+      "english": "floor",
+      "chinese": "楼层",
+      "objectPath": "v1/survival-20-01-floor.webp",
+      "bytes": 62568
+    },
+    {
+      "lesson": "survival-20",
+      "position": 2,
+      "english": "lobby",
+      "chinese": "大堂",
+      "objectPath": "v1/survival-20-02-lobby.webp",
+      "bytes": 51854
+    },
+    {
+      "lesson": "survival-20",
+      "position": 3,
+      "english": "stairs",
+      "chinese": "楼梯",
+      "objectPath": "v1/survival-20-03-stairs.webp",
+      "bytes": 49712
+    },
+    {
+      "lesson": "survival-20",
+      "position": 4,
+      "english": "available",
+      "chinese": "可用的；有空的",
+      "objectPath": "v1/survival-20-04-available.webp",
+      "bytes": 55498
+    },
+    {
+      "lesson": "survival-20",
+      "position": 5,
+      "english": "wait",
+      "chinese": "等待",
+      "objectPath": "v1/survival-20-05-wait.webp",
+      "bytes": 46802
+    },
+    {
+      "lesson": "survival-20",
+      "position": 6,
+      "english": "Is breakfast still available?",
+      "chinese": "早餐现在还有吗？",
+      "objectPath": "v1/survival-20-06-is-breakfast-still-available.webp",
+      "bytes": 47056
+    },
+    {
+      "lesson": "survival-21",
+      "position": 1,
+      "english": "price",
+      "chinese": "价格",
+      "objectPath": "v1/survival-21-01-price.webp",
+      "bytes": 28576
+    },
+    {
+      "lesson": "survival-21",
+      "position": 2,
+      "english": "cost",
+      "chinese": "花费",
+      "objectPath": "v1/survival-21-02-cost.webp",
+      "bytes": 24690
+    },
+    {
+      "lesson": "survival-21",
+      "position": 3,
+      "english": "cheap",
+      "chinese": "便宜的",
+      "objectPath": "v1/survival-21-03-cheap.webp",
+      "bytes": 21036
+    },
+    {
+      "lesson": "survival-21",
+      "position": 4,
+      "english": "expensive",
+      "chinese": "昂贵的",
+      "objectPath": "v1/survival-21-04-expensive.webp",
+      "bytes": 31002
+    },
+    {
+      "lesson": "survival-21",
+      "position": 5,
+      "english": "pay",
+      "chinese": "付款",
+      "objectPath": "v1/survival-21-05-pay.webp",
+      "bytes": 45686
+    },
+    {
+      "lesson": "survival-21",
+      "position": 6,
+      "english": "How much is this?",
+      "chinese": "这个多少钱？",
+      "objectPath": "v1/survival-21-06-how-much-is-this.webp",
+      "bytes": 46976
+    },
+    {
+      "lesson": "survival-22",
+      "position": 1,
+      "english": "size",
+      "chinese": "尺码",
+      "objectPath": "v1/survival-22-01-size.webp",
+      "bytes": 24958
+    },
+    {
+      "lesson": "survival-22",
+      "position": 2,
+      "english": "small",
+      "chinese": "小的",
+      "objectPath": "v1/survival-22-02-small.webp",
+      "bytes": 16760
+    },
+    {
+      "lesson": "survival-22",
+      "position": 3,
+      "english": "large",
+      "chinese": "大的",
+      "objectPath": "v1/survival-22-03-large.webp",
+      "bytes": 23666
+    },
+    {
+      "lesson": "survival-22",
+      "position": 4,
+      "english": "color",
+      "chinese": "颜色",
+      "objectPath": "v1/survival-22-04-color.webp",
+      "bytes": 27508
+    },
+    {
+      "lesson": "survival-22",
+      "position": 5,
+      "english": "try",
+      "chinese": "尝试；试穿",
+      "objectPath": "v1/survival-22-05-try.webp",
+      "bytes": 36972
+    },
+    {
+      "lesson": "survival-22",
+      "position": 6,
+      "english": "Do you have this in a small?",
+      "chinese": "这件有小码吗？",
+      "objectPath": "v1/survival-22-06-do-you-have-this-in-a-small.webp",
+      "bytes": 47868
+    },
+    {
+      "lesson": "survival-23",
+      "position": 1,
+      "english": "headache",
+      "chinese": "头痛",
+      "objectPath": "v1/survival-23-01-headache.webp",
+      "bytes": 30116
+    },
+    {
+      "lesson": "survival-23",
+      "position": 2,
+      "english": "fever",
+      "chinese": "发烧",
+      "objectPath": "v1/survival-23-02-fever.webp",
+      "bytes": 35456
+    },
+    {
+      "lesson": "survival-23",
+      "position": 3,
+      "english": "medicine",
+      "chinese": "药",
+      "objectPath": "v1/survival-23-03-medicine.webp",
+      "bytes": 13780
+    },
+    {
+      "lesson": "survival-23",
+      "position": 4,
+      "english": "pain",
+      "chinese": "疼痛",
+      "objectPath": "v1/survival-23-04-pain.webp",
+      "bytes": 29116
+    },
+    {
+      "lesson": "survival-23",
+      "position": 5,
+      "english": "doctor",
+      "chinese": "医生",
+      "objectPath": "v1/survival-23-05-doctor.webp",
+      "bytes": 22274
+    },
+    {
+      "lesson": "survival-23",
+      "position": 6,
+      "english": "I have a headache.",
+      "chinese": "我头痛。",
+      "objectPath": "v1/survival-23-06-i-have-a-headache.webp",
+      "bytes": 37088
+    },
+    {
+      "lesson": "survival-24",
+      "position": 1,
+      "english": "lost",
+      "chinese": "迷路的；丢失的",
+      "objectPath": "v1/survival-24-01-lost.webp",
+      "bytes": 46648
+    },
+    {
+      "lesson": "survival-24",
+      "position": 2,
+      "english": "police",
+      "chinese": "警察",
+      "objectPath": "v1/survival-24-02-police.webp",
+      "bytes": 45498
+    },
+    {
+      "lesson": "survival-24",
+      "position": 3,
+      "english": "safe",
+      "chinese": "安全的",
+      "objectPath": "v1/survival-24-03-safe.webp",
+      "bytes": 55546
+    },
+    {
+      "lesson": "survival-24",
+      "position": 4,
+      "english": "danger",
+      "chinese": "危险",
+      "objectPath": "v1/survival-24-04-danger.webp",
+      "bytes": 42706
+    },
+    {
+      "lesson": "survival-24",
+      "position": 5,
+      "english": "emergency",
+      "chinese": "紧急情况",
+      "objectPath": "v1/survival-24-05-emergency.webp",
+      "bytes": 33254
+    },
+    {
+      "lesson": "survival-24",
+      "position": 6,
+      "english": "I'm lost. Can you help me?",
+      "chinese": "我迷路了，可以帮我吗？",
+      "objectPath": "v1/survival-24-06-im-lost-can-you-help-me.webp",
+      "bytes": 48544
+    },
+    {
+      "lesson": "survival-25",
+      "position": 1,
+      "english": "wallet",
+      "chinese": "钱包",
+      "objectPath": "v1/survival-25-01-wallet.webp",
+      "bytes": 33342
+    },
+    {
+      "lesson": "survival-25",
+      "position": 2,
+      "english": "address",
+      "chinese": "地址",
+      "objectPath": "v1/survival-25-02-address.webp",
+      "bytes": 30818
+    },
+    {
+      "lesson": "survival-25",
+      "position": 3,
+      "english": "find",
+      "chinese": "找到",
+      "objectPath": "v1/survival-25-03-find.webp",
+      "bytes": 43638
+    },
+    {
+      "lesson": "survival-25",
+      "position": 4,
+      "english": "contact",
+      "chinese": "联系",
+      "objectPath": "v1/survival-25-04-contact.webp",
+      "bytes": 36644
+    },
+    {
+      "lesson": "survival-25",
+      "position": 5,
+      "english": "embassy",
+      "chinese": "大使馆",
+      "objectPath": "v1/survival-25-05-embassy.webp",
+      "bytes": 47422
+    },
+    {
+      "lesson": "survival-25",
+      "position": 6,
+      "english": "I can't find my wallet.",
+      "chinese": "我找不到钱包了。",
+      "objectPath": "v1/survival-25-06-i-cant-find-my-wallet.webp",
+      "bytes": 39222
+    },
+    {
+      "lesson": "survival-26",
+      "position": 1,
+      "english": "sunny",
+      "chinese": "晴朗的",
+      "objectPath": "v1/survival-26-01-sunny.webp",
+      "bytes": 57666
+    },
+    {
+      "lesson": "survival-26",
+      "position": 2,
+      "english": "rainy",
+      "chinese": "下雨的",
+      "objectPath": "v1/survival-26-02-rainy.webp",
+      "bytes": 65630
+    },
+    {
+      "lesson": "survival-26",
+      "position": 3,
+      "english": "cloudy",
+      "chinese": "多云的",
+      "objectPath": "v1/survival-26-03-cloudy.webp",
+      "bytes": 33442
+    },
+    {
+      "lesson": "survival-26",
+      "position": 4,
+      "english": "plan",
+      "chinese": "计划",
+      "objectPath": "v1/survival-26-04-plan.webp",
+      "bytes": 43828
+    },
+    {
+      "lesson": "survival-26",
+      "position": 5,
+      "english": "trip",
+      "chinese": "旅行",
+      "objectPath": "v1/survival-26-05-trip.webp",
+      "bytes": 59914
+    },
+    {
+      "lesson": "survival-26",
+      "position": 6,
+      "english": "What's the weather like today?",
+      "chinese": "今天天气怎么样？",
+      "objectPath": "v1/survival-26-06-whats-the-weather-like-today.webp",
+      "bytes": 55442
+    },
+    {
+      "lesson": "survival-27",
+      "position": 1,
+      "english": "photo",
+      "chinese": "照片",
+      "objectPath": "v1/survival-27-01-photo.webp",
+      "bytes": 32490
+    },
+    {
+      "lesson": "survival-27",
+      "position": 2,
+      "english": "camera",
+      "chinese": "相机",
+      "objectPath": "v1/survival-27-02-camera.webp",
+      "bytes": 20992
+    },
+    {
+      "lesson": "survival-27",
+      "position": 3,
+      "english": "beautiful",
+      "chinese": "美丽的",
+      "objectPath": "v1/survival-27-03-beautiful.webp",
+      "bytes": 70302
+    },
+    {
+      "lesson": "survival-27",
+      "position": 4,
+      "english": "together",
+      "chinese": "一起",
+      "objectPath": "v1/survival-27-04-together.webp",
+      "bytes": 35756
+    },
+    {
+      "lesson": "survival-27",
+      "position": 5,
+      "english": "smile",
+      "chinese": "微笑",
+      "objectPath": "v1/survival-27-05-smile.webp",
+      "bytes": 47402
+    },
+    {
+      "lesson": "survival-27",
+      "position": 6,
+      "english": "Could you take a photo for us?",
+      "chinese": "可以帮我们拍张照吗？",
+      "objectPath": "v1/survival-27-06-could-you-take-a-photo-for-us.webp",
+      "bytes": 46714
+    },
+    {
+      "lesson": "survival-28",
+      "position": 1,
+      "english": "book",
+      "chinese": "预订",
+      "objectPath": "v1/survival-28-01-book.webp",
+      "bytes": 29454
+    },
+    {
+      "lesson": "survival-28",
+      "position": 2,
+      "english": "confirm",
+      "chinese": "确认",
+      "objectPath": "v1/survival-28-02-confirm.webp",
+      "bytes": 33352
+    },
+    {
+      "lesson": "survival-28",
+      "position": 3,
+      "english": "cancel",
+      "chinese": "取消",
+      "objectPath": "v1/survival-28-03-cancel.webp",
+      "bytes": 19346
+    },
+    {
+      "lesson": "survival-28",
+      "position": 4,
+      "english": "available",
+      "chinese": "可预约的",
+      "objectPath": "v1/survival-28-04-available.webp",
+      "bytes": 16582
+    },
+    {
+      "lesson": "survival-28",
+      "position": 5,
+      "english": "museum",
+      "chinese": "博物馆",
+      "objectPath": "v1/survival-28-05-museum.webp",
+      "bytes": 39774
+    },
+    {
+      "lesson": "survival-28",
+      "position": 6,
+      "english": "I'd like to book two tickets.",
+      "chinese": "我想预订两张票。",
+      "objectPath": "v1/survival-28-06-id-like-to-book-two-tickets.webp",
+      "bytes": 41014
+    },
+    {
+      "lesson": "survival-29",
+      "position": 1,
+      "english": "departure",
+      "chinese": "出发；离境",
+      "objectPath": "v1/survival-29-01-departure.webp",
+      "bytes": 33244
+    },
+    {
+      "lesson": "survival-29",
+      "position": 2,
+      "english": "delay",
+      "chinese": "延误",
+      "objectPath": "v1/survival-29-02-delay.webp",
+      "bytes": 38888
+    },
+    {
+      "lesson": "survival-29",
+      "position": 3,
+      "english": "baggage",
+      "chinese": "行李",
+      "objectPath": "v1/survival-29-03-baggage.webp",
+      "bytes": 23658
+    },
+    {
+      "lesson": "survival-29",
+      "position": 4,
+      "english": "platform",
+      "chinese": "站台",
+      "objectPath": "v1/survival-29-04-platform.webp",
+      "bytes": 45538
+    },
+    {
+      "lesson": "survival-29",
+      "position": 5,
+      "english": "return",
+      "chinese": "返回",
+      "objectPath": "v1/survival-29-05-return.webp",
+      "bytes": 41378
+    },
+    {
+      "lesson": "survival-29",
+      "position": 6,
+      "english": "Is the train delayed?",
+      "chinese": "火车晚点了吗？",
+      "objectPath": "v1/survival-29-06-is-the-train-delayed.webp",
+      "bytes": 39128
+    },
+    {
+      "lesson": "survival-30",
+      "position": 1,
+      "english": "ready",
+      "chinese": "准备好的",
+      "objectPath": "v1/survival-30-01-ready.webp",
+      "bytes": 40586
+    },
+    {
+      "lesson": "survival-30",
+      "position": 2,
+      "english": "brave",
+      "chinese": "勇敢的",
+      "objectPath": "v1/survival-30-02-brave.webp",
+      "bytes": 53506
+    },
+    {
+      "lesson": "survival-30",
+      "position": 3,
+      "english": "alone",
+      "chinese": "独自",
+      "objectPath": "v1/survival-30-03-alone.webp",
+      "bytes": 57302
+    },
+    {
+      "lesson": "survival-30",
+      "position": 4,
+      "english": "remember",
+      "chinese": "记得",
+      "objectPath": "v1/survival-30-04-remember.webp",
+      "bytes": 54722
+    },
+    {
+      "lesson": "survival-30",
+      "position": 5,
+      "english": "journey",
+      "chinese": "旅程",
+      "objectPath": "v1/survival-30-05-journey.webp",
+      "bytes": 61570
+    },
+    {
+      "lesson": "survival-30",
+      "position": 6,
+      "english": "I can do this.",
+      "chinese": "我可以做到。",
+      "objectPath": "v1/survival-30-06-i-can-do-this.webp",
+      "bytes": 34236
+    }
+  ]
+}

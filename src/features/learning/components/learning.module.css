@@ -1,0 +1,443 @@
+.paperNoise {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  opacity: .2;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E");
+}
+
+.topbar {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: min(100% - 48px, 1220px);
+  height: 76px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(38, 37, 31, .18);
+}
+
+.brandButton {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.navigation { display: flex; gap: 30px; }
+.navLink {
+  position: relative;
+  padding: 9px 2px;
+  border: 0;
+  background: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.navLinkActive::after {
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  left: 0;
+  height: 3px;
+  border-radius: 5px;
+  background: var(--coral);
+  content: "";
+  transform: rotate(-1deg);
+}
+.profileBadge {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid var(--ink);
+  border-radius: 50%;
+  background: var(--yellow);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+}
+.pageShell { width: min(100% - 48px, 1220px); margin: 0 auto; }
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 18px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+.eyebrow span { display: inline-block; width: 24px; height: 2px; background: var(--coral); }
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.03fr .97fr;
+  align-items: center;
+  min-height: 630px;
+  padding: 70px 0 60px;
+  gap: 66px;
+}
+.heroCopy h1 {
+  margin: 0 0 28px;
+  font-family: "Kaiti SC", "STKaiti", "FZKai-Z03", serif;
+  font-size: clamp(56px, 7vw, 88px);
+  font-weight: 800;
+  letter-spacing: -.07em;
+  line-height: .98;
+}
+.heroCopy h1 em { position: relative; color: var(--coral); font-style: normal; }
+.heroCopy h1 em::after {
+  position: absolute;
+  right: -5px;
+  bottom: 2px;
+  left: -3px;
+  z-index: -1;
+  height: 9px;
+  background: var(--yellow);
+  content: "";
+  transform: rotate(-2deg);
+}
+.heroIntro { max-width: 580px; color: #545148; font-size: 18px; line-height: 1.8; }
+.heroActions { display: flex; align-items: center; gap: 22px; margin-top: 34px; }
+.primaryButton {
+  padding: 15px 22px;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  background: var(--coral);
+  box-shadow: 4px 5px 0 var(--ink);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.primaryButton:hover:not(:disabled) { box-shadow: 2px 3px 0 var(--ink); transform: translate(2px, 2px); }
+.primaryButton:disabled { cursor: default; opacity: .75; }
+.soundButton { padding: 12px; border: 0; background: transparent; font-weight: 600; cursor: pointer; }
+.soundButton span { margin-right: 5px; color: var(--blue); font-weight: 700; }
+.gentleNote { margin: 24px 0 0 4px; color: #878077; font-size: 13px; }
+.heroVisual { position: relative; min-height: 490px; }
+.mainPostcard {
+  position: absolute;
+  top: 28px;
+  left: 7%;
+  width: min(405px, 90%);
+  padding: 18px;
+  border: 2px solid var(--ink);
+  background: var(--cream);
+  box-shadow: 7px 8px 0 var(--ink);
+  transform: rotate(2.5deg);
+}
+.memoryImage {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background-image: url("/images/memory-grid.png");
+  background-repeat: no-repeat;
+  background-color: #fbf6e9;
+  background-size: 300% 200%;
+}
+.courseMemoryImage {
+  background-image: none;
+  background-position: center;
+  background-size: cover;
+}
+.courseMemoryImage > img { width: 100%; height: 100%; object-fit: cover; }
+.imageTextFallback {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+  padding: 12px;
+  background: #fbf6e9;
+  color: #655f56;
+  font-family: "Kaiti SC", "STKaiti", serif;
+  font-size: clamp(16px, 4vw, 24px);
+  font-weight: 700;
+  text-align: center;
+}
+.image-apple { background-position: 0 0; }
+.image-umbrella { background-position: 50% 0; }
+.image-bed { background-position: 100% 0; }
+.image-ticket { background-position: 0 100%; }
+.image-noodles { background-position: 50% 100%; }
+.image-clock { background-position: 100% 100%; }
+.image-hello,
+.image-name,
+.image-meet,
+.image-from,
+.image-friend,
+.image-nice-to-meet { background-image: url("/images/course-01-grid.png"); }
+.image-hello { background-position: 0 0; }
+.image-name { background-position: 50% 0; }
+.image-meet { background-position: 100% 0; }
+.image-from { background-position: 0 100%; }
+.image-friend { background-position: 50% 100%; }
+.image-nice-to-meet { background-position: 100% 100%; }
+.postcardImage { height: 330px; border: 1px solid rgba(38, 37, 31, .15); }
+.postcardCopy { display: grid; grid-template-columns: 1fr auto; align-items: end; margin-top: 12px; }
+.tinyLabel { grid-column: 1 / -1; color: #8c8379; font-size: 9px; letter-spacing: .16em; }
+.postcardCopy strong { font-size: 36px; line-height: 1.1; }
+.phonetic { color: #716b62; font-size: 13px; }
+.sunSticker {
+  position: absolute;
+  top: 0;
+  right: 4%;
+  z-index: 3;
+  display: grid;
+  place-content: center;
+  width: 86px;
+  height: 86px;
+  border: 2px solid var(--ink);
+  border-radius: 48% 52% 45% 55%;
+  background: var(--yellow);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: .8;
+  text-align: center;
+  transform: rotate(9deg);
+}
+.sunSticker small { font-size: 9px; letter-spacing: .13em; }
+.tape { position: absolute; top: 15px; left: 38%; z-index: 4; width: 90px; height: 29px; background: rgba(117, 149, 170, .65); transform: rotate(-3deg); }
+.scribble { position: absolute; right: 0; bottom: 7px; color: #47443e; font-family: "Kaiti SC", serif; font-size: 22px; transform: rotate(-6deg); }
+.doodleArrow { position: absolute; right: 23%; bottom: 56px; font-size: 50px; transform: rotate(-20deg); }
+
+.todayPlan { padding: 88px 0 100px; border-top: 1px solid rgba(38, 37, 31, .18); }
+.sectionHeading { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 38px; gap: 30px; }
+.sectionHeading h2, .lessonCopy h2, .dialogCard h2 {
+  margin: 0;
+  font-family: "Kaiti SC", "STKaiti", serif;
+  font-size: clamp(36px, 5vw, 54px);
+  font-weight: 800;
+  letter-spacing: -.04em;
+}
+.progressRing {
+  --progress: 0deg;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: conic-gradient(var(--coral) var(--progress), #ded6ca 0);
+}
+.progressRing::after { position: absolute; width: 52px; height: 52px; border-radius: 50%; background: var(--paper); content: ""; }
+.progressRing span { position: relative; z-index: 2; font-size: 13px; font-weight: 700; }
+.stepsGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.stepCard {
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+  padding: 22px;
+  border: 2px solid var(--ink);
+  box-shadow: 5px 6px 0 var(--ink);
+  transition: opacity .22s ease, transform .22s ease, box-shadow .22s ease;
+}
+.stepCard:hover { transform: translateY(-5px) rotate(-.4deg); }
+.stepCard.coral { background: #f4a08e; }
+.stepCard.blue { background: #a8c9e4; }
+.stepCard.yellow { background: #f3d886; }
+.stepCard.complete { box-shadow: none; opacity: .68; transform: translate(4px, 5px); }
+.stepTop { display: flex; align-items: center; justify-content: space-between; }
+.stepNumber { font-size: 30px; font-weight: 700; }
+.stepTime { padding: 5px 8px; border: 1px solid var(--ink); border-radius: 30px; font-size: 10px; letter-spacing: .15em; }
+.miniImage { width: 120px; height: 120px; margin: 20px auto 12px; border: 1.5px solid var(--ink); border-radius: 50%; }
+.numberMemory { position: relative; display: flex; align-items: center; justify-content: center; height: 152px; }
+.numberMemory span { color: white; font-family: Georgia, serif; font-size: 126px; font-weight: 700; line-height: 1; text-shadow: 4px 4px 0 var(--ink); -webkit-text-stroke: 2px var(--ink); transform: rotate(-5deg); }
+.numberMemory i { position: absolute; right: 14px; bottom: 8px; padding: 5px 9px; border: 1px solid var(--ink); background: var(--cream); font-size: 12px; font-style: normal; transform: rotate(4deg); }
+.speechScene { display: flex; align-items: center; justify-content: center; height: 152px; gap: 12px; }
+.speechScene > span:last-child { font-size: 56px; }
+.speechBubble { padding: 13px 16px; border: 1.5px solid var(--ink); border-radius: 18px 18px 3px 18px; background: var(--cream); font-weight: 700; transform: rotate(-3deg); }
+.stepCard h3 { margin: 11px 0 8px; font-size: 22px; }
+.stepCard p { margin: 0 0 18px; font-size: 14px; line-height: 1.65; }
+.stepButton { display: flex; justify-content: space-between; margin-top: auto; padding: 13px 0 0; border: 0; border-top: 1px solid rgba(38, 37, 31, .5); background: transparent; font-weight: 700; text-align: left; cursor: pointer; }
+
+.memoryLab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 calc((100vw - min(100vw - 48px, 1220px)) / -2);
+  padding: 100px max(24px, calc((100vw - 1050px) / 2));
+  background: #292923;
+  color: #f9f3e8;
+  gap: 9%;
+}
+.memoryLab .eyebrow span { background: var(--yellow); }
+.lessonCopy > p:not(.eyebrow) { max-width: 500px; color: #c9c4b8; line-height: 1.7; }
+.memoryHooks { display: grid; margin-top: 35px; gap: 11px; }
+.hook { display: grid; grid-template-columns: 38px 1fr; align-items: center; padding: 12px; border: 1px solid #55544c; border-radius: 3px; background: transparent; color: #c9c4b8; text-align: left; cursor: pointer; }
+.hook b { color: var(--yellow); font-size: 11px; }
+.hook span { display: flex; flex-direction: column; gap: 2px; }
+.hook strong { color: white; font-size: 16px; }
+.hookActive { border-color: var(--yellow); background: #3a3931; transform: translateX(5px); }
+.flipWrap { display: grid; justify-items: center; perspective: 1200px; }
+.wordCard { position: relative; width: min(370px, 100%); border: 0; aspect-ratio: .78; background: transparent; cursor: pointer; transform-style: preserve-3d; transition: transform .65s cubic-bezier(.2, .7, .2, 1); }
+.wordCardFlipped { transform: rotateY(180deg); }
+.cardFace { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; border: 2px solid var(--ink); background: var(--cream); box-shadow: 8px 9px 0 var(--coral); color: var(--ink); backface-visibility: hidden; }
+.cardImage { width: 100%; height: 82%; }
+.cardBack { transform: rotateY(180deg); }
+.hugeWord { font-size: 56px; font-weight: 700; }
+.example { margin-top: 42px; font-size: 21px; font-weight: 600; }
+.translation { margin-top: 7px; color: #6f695e; }
+.tapHint { margin-top: auto; color: #857d71; font-size: 11px; letter-spacing: .08em; }
+.listenPill { margin-top: 28px; padding: 8px 17px; border: 1px solid #f9f3e8; border-radius: 20px; background: transparent; color: white; cursor: pointer; }
+
+.contentSection { min-height: 690px; padding: 100px 0; }
+.sectionSidecopy { max-width: 390px; color: #716b62; line-height: 1.6; }
+.travelGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.travelCard { position: relative; display: flex; flex-direction: column; min-height: 420px; border: 2px solid var(--ink); background: var(--cream); box-shadow: 5px 6px 0 var(--ink); color: var(--ink); transition: box-shadow .2s ease, transform .2s ease; }
+.travelCard:hover { box-shadow: 7px 9px 0 var(--ink); transform: translateY(-5px); }
+.travelCardMain { display: flex; flex: 1; flex-direction: column; width: 100%; padding: 18px 18px 72px; border: 0; background: transparent; color: inherit; text-align: left; text-decoration: none; cursor: pointer; }
+.travelCardMain:focus-visible, .travelListen:focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.travelIllustration { width: 100%; height: 230px; margin-bottom: 18px; border-bottom: 1px solid rgba(38, 37, 31, .18); }
+.travelIndex { position: absolute; top: 28px; left: 28px; display: grid; place-items: center; width: 35px; height: 35px; border: 1px solid var(--ink); border-radius: 50%; background: var(--coral); color: white; font-size: 11px; }
+.travelCardMain strong { font-size: 25px; }
+.travelCardMain small { margin-top: 3px; color: #80796f; }
+.travelCardMain i { margin-top: auto; color: #4d7da8; font-weight: 600; font-style: normal; }
+.travelEntry { display: inline-flex; align-items: center; align-self: flex-end; margin-top: 18px; color: var(--ink); font-size: 12px; font-weight: 800; letter-spacing: .08em; }
+.travelEntry b { margin-left: 5px; color: var(--coral); font-size: 17px; transition: transform .2s ease; }
+.travelCardMain:hover .travelEntry b { transform: translateX(4px); }
+.travelListen { position: absolute; bottom: 20px; left: 18px; padding: 7px 11px; border: 1px solid var(--ink); border-radius: 30px; background: var(--paper); color: var(--ink); font-size: 11px; font-weight: 700; cursor: pointer; transition: background .2s ease, color .2s ease; }
+.travelListen:hover { background: var(--blue); color: white; }
+.travelSubheading { margin: 86px 0 26px; }
+.travelSubheading .eyebrow { margin-bottom: 10px; }
+.travelSubheading h3 { margin: 0; font-family: "Kaiti SC", "STKaiti", serif; font-size: 35px; }
+.travelQuickGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.travelQuickCard {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  min-height: 148px;
+  padding: 22px;
+  border-top: 2px solid var(--ink);
+  border-bottom: 1px solid rgba(38, 37, 31, .22);
+  color: var(--ink);
+  text-decoration: none;
+  column-gap: 15px;
+  transition: background .2s ease, transform .2s ease;
+}
+.travelQuickCard:hover { background: rgba(255, 250, 241, .72); transform: translateY(-3px); }
+.travelQuickCard:focus-visible, .destinationCard:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+.travelQuickStamp { display: grid; place-items: center; width: 52px; height: 52px; border: 1.5px solid var(--ink); border-radius: 50%; background: var(--yellow); font-size: 12px; font-weight: 800; letter-spacing: .08em; transform: rotate(-5deg); }
+.travelQuickCard strong, .travelQuickCard small { display: block; }
+.travelQuickCard strong { font-size: 20px; }
+.travelQuickCard small { margin-top: 4px; color: #777065; }
+.travelQuickCard > i { grid-column: 1 / -1; margin-top: 18px; color: #4d7da8; font-weight: 600; font-style: normal; }
+.travelQuickCard > b { color: var(--coral); font-size: 21px; }
+.destinationCard {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(250px, .7fr) minmax(0, 1.3fr);
+  min-height: 345px;
+  margin-top: 72px;
+  border: 2px solid var(--ink);
+  background: #d9e3dc;
+  box-shadow: 8px 9px 0 var(--ink);
+  color: var(--ink);
+  text-decoration: none;
+  overflow: hidden;
+  transition: box-shadow .2s ease, transform .2s ease;
+}
+.destinationCard:hover { box-shadow: 4px 5px 0 var(--ink); transform: translate(3px, 3px); }
+.destinationMap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+  padding: 28px;
+  border-right: 2px solid var(--ink);
+  background:
+    repeating-radial-gradient(ellipse at 38% 54%, transparent 0 18px, rgba(38, 37, 31, .12) 19px 20px),
+    #8eb0c2;
+}
+.destinationMap::after { position: absolute; top: 50%; left: 54%; width: 110px; height: 165px; border: 2px solid var(--ink); border-radius: 53% 42% 50% 45%; background: #f7f1e8; content: ""; transform: translate(-50%, -50%) rotate(13deg); clip-path: polygon(42% 0, 73% 10%, 69% 25%, 90% 36%, 74% 53%, 89% 70%, 59% 77%, 51% 100%, 30% 81%, 4% 74%, 20% 51%, 5% 35%, 35% 24%); }
+.destinationMap b, .destinationMap i, .destinationMap small { position: relative; z-index: 1; }
+.destinationMap b { font-size: 12px; letter-spacing: .16em; }
+.destinationMap i { align-self: center; font-family: Georgia, serif; font-size: 47px; font-weight: 700; font-style: normal; line-height: .78; letter-spacing: -.06em; }
+.destinationMap small { align-self: flex-end; font-weight: 800; letter-spacing: .13em; }
+.destinationCopy { display: flex; flex-direction: column; justify-content: center; padding: 46px 52px; }
+.destinationCopy > small { font-size: 11px; font-weight: 800; letter-spacing: .16em; }
+.destinationCopy > strong { margin-top: 16px; font-family: "Kaiti SC", "STKaiti", serif; font-size: 48px; }
+.destinationCopy p { max-width: 540px; margin: 13px 0 30px; color: #4f5b54; font-size: 17px; line-height: 1.7; }
+.destinationCopy > i { color: #3b6f8d; font-size: 21px; font-weight: 700; font-style: normal; }
+.destinationCopy > span { align-self: flex-end; margin-top: 34px; font-size: 12px; font-weight: 800; letter-spacing: .08em; }
+.destinationCopy > span b { margin-left: 7px; color: var(--coral); font-size: 18px; }
+.reviewLayout { display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: 70px; }
+.reviewTimeline { position: relative; display: grid; grid-template-columns: repeat(5, 1fr); padding-top: 38px; gap: 5px; }
+.timelineLine { position: absolute; top: 48px; right: 7%; left: 7%; height: 2px; background: var(--ink); }
+.reviewNode { position: relative; display: flex; flex-direction: column; font-size: 12px; text-align: center; gap: 18px; }
+.reviewNode::before { z-index: 2; width: 20px; height: 20px; margin: 0 auto; border: 2px solid var(--ink); border-radius: 50%; background: var(--paper); content: ""; }
+.reviewNodeDone::before { background: var(--coral); }
+.reviewNode span { color: #817a70; line-height: 1.4; }
+.restartCard { padding: 45px 35px; border: 2px solid var(--ink); background: var(--blue); box-shadow: 7px 8px 0 var(--ink); text-align: center; transform: rotate(1deg); }
+.restartPlant { font-size: 65px; }
+.restartCard p { font-size: 13px; }
+.restartCard h3 { font-family: "Kaiti SC", serif; font-size: 32px; }
+.restartCard small { display: block; margin-top: 18px; }
+
+.dialogBackdrop { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 20px; background: rgba(38, 37, 31, .72); }
+.dialogCard { position: relative; width: min(520px, 100%); padding: 36px; border: 2px solid var(--ink); background: var(--paper); box-shadow: 10px 12px 0 var(--coral); text-align: center; }
+.dialogCard .eyebrow { justify-content: center; }
+.dialogCard h2 { font-size: 34px; }
+.closeDialog { position: absolute; top: 10px; right: 13px; border: 0; background: none; font-size: 30px; cursor: pointer; }
+.quizImage { width: 180px; height: 180px; margin: 24px auto; border: 1.5px solid var(--ink); border-radius: 50%; }
+.quizOptions { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.quizOptions button { padding: 12px 8px; border: 1.5px solid var(--ink); background: var(--cream); font-weight: 600; cursor: pointer; }
+.quizOptions .correctAnswer { background: #add39d; }
+.quizOptions .wrongAnswer { background: #eea595; }
+.quizFeedback { min-height: 24px; color: #716b62; font-size: 13px; }
+.footer { display: flex; align-items: center; width: min(100% - 48px, 1220px); margin: 0 auto; padding: 38px 0 50px; border-top: 1px solid rgba(38, 37, 31, .18); gap: 35px; }
+.footer p { margin-left: auto; }
+.footer small { color: #8c857a; }
+
+@media (max-width: 850px) {
+  .topbar { height: 68px; }
+  .navigation { position: fixed; right: 15px; bottom: 13px; left: 15px; z-index: 70; justify-content: space-around; padding: 5px; border-radius: 40px; background: var(--ink); box-shadow: 0 8px 28px rgba(0, 0, 0, .22); }
+  .navLink { width: 30%; color: white; }
+  .navLinkActive { border-radius: 30px; background: var(--coral); }
+  .navLinkActive::after { display: none; }
+  .hero { grid-template-columns: 1fr; padding-top: 50px; gap: 20px; }
+  .heroVisual { min-height: 480px; }
+  .stepsGrid, .travelGrid, .travelQuickGrid { grid-template-columns: 1fr; }
+  .stepCard { min-height: 360px; }
+  .memoryLab { grid-template-columns: 1fr; margin: 0 calc((100vw - (100vw - 48px)) / -2); padding: 80px 7%; gap: 55px; }
+  .reviewLayout { grid-template-columns: 1fr; }
+  .reviewTimeline { grid-template-columns: 1fr; padding: 0 0 0 32px; gap: 20px; }
+  .timelineLine { top: 10px; right: auto; bottom: 10px; left: 10px; width: 2px; height: auto; }
+  .reviewNode { display: grid; grid-template-columns: 90px 1fr; text-align: left; gap: 10px; }
+  .reviewNode::before { position: absolute; top: 0; left: -31px; }
+  .sectionHeading { align-items: flex-start; }
+  .sectionSidecopy { display: none; }
+  .destinationCard { grid-template-columns: 1fr; }
+  .destinationMap { min-height: 260px; border-right: 0; border-bottom: 2px solid var(--ink); }
+  .footer { flex-wrap: wrap; padding-bottom: 110px; }
+  .footer p { margin-left: 0; }
+}
+
+@media (max-width: 520px) {
+  .topbar, .pageShell, .footer { width: calc(100% - 32px); }
+  .heroCopy h1 { font-size: 56px; }
+  .heroActions { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .mainPostcard { left: 3%; width: 88%; }
+  .postcardImage { height: 285px; }
+  .scribble { font-size: 18px; }
+  .todayPlan { padding-top: 65px; }
+  .sectionHeading { margin-bottom: 28px; }
+  .sectionHeading h2 { font-size: 38px; }
+  .progressRing { flex: 0 0 auto; }
+  .memoryLab { margin: 0 -16px; }
+  .travelSubheading { margin-top: 65px; }
+  .destinationCard { margin-top: 52px; }
+  .destinationCopy { padding: 34px 24px; }
+  .destinationCopy > strong { font-size: 40px; }
+  .destinationCopy > i { font-size: 18px; }
+  .quizOptions { grid-template-columns: 1fr; }
+}
