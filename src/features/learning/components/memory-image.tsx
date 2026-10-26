@@ -15,7 +15,7 @@ interface MemoryImageProps {
 export function MemoryImage({ image, className = "", label }: MemoryImageProps) {
   const courseImageUrl = getCourseIllustrationUrl(image);
   const [failedUrl, setFailedUrl] = useState<string | null>(null);
-  const imageFailed = courseImageUrl === failedUrl;
+  const imageFailed = Boolean(courseImageUrl && courseImageUrl === failedUrl);
   const showCourseImage = Boolean(courseImageUrl && !imageFailed);
   const legacyClassName = courseImageUrl ? "" : styles[`image-${image}`] ?? "";
   const fallbackText = label?.trim() || "图片暂不可用";
